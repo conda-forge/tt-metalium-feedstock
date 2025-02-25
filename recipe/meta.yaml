@@ -12,7 +12,7 @@ source:
 # Skipping build for other python versions due to timeout in staging CI
 # Will enable more python versions after merge
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux or py!=310]
 
 requirements:
