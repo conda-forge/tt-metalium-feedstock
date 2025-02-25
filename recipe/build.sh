@@ -14,6 +14,7 @@ cmake \
   -S $SRC_DIR \
   -B $SRC_DIR/build \
   -DCMAKE_BUILD_TYPE=Release \
+  -DTT_UNITY_BUILDS=OFF \
   -DCMAKE_SKIP_INSTALL_RPATH=ON
 
 cmake --build $SRC_DIR/build --parallel 1
