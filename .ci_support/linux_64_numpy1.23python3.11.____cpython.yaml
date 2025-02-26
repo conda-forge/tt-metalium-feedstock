@@ -21,13 +21,13 @@ docker_image:
 libhwloc:
 - 2.11.2
 numpy:
-- '1.22'
+- '1.23'
 pin_run_as_build:
   python:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.10.* *_cpython
+- 3.11.* *_cpython
 pytorch:
 - '2.6'
 target_platform:
