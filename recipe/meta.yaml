@@ -21,8 +21,8 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
-    - clang-17
-    - clangxx-17
+    - clang
+    - clangxx
     - cmake
     - ninja
     - git
