@@ -2,3 +2,11 @@
 # These defines are not available in the old sysroot
 c_stdlib_version:          # [linux]
   - 2.34                   # [linux]
+c_compiler:
+  - clang
+cxx_compiler:
+  - clangxx
+c_compiler_version:
+  - 18
+cxx_compiler_version:
+  - 18
